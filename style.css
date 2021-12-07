@@ -49,6 +49,7 @@ body{
     background: radial-gradient(circle, red, blue, green);
     border: 10px gold double;
     padding: 5px;
+
 }
 
 .para{
@@ -59,8 +60,36 @@ body{
     width: 40%;
     border: 2px grey solid;
     padding: 5px;
-    float: right;
+    /* float: right; */
+    justify-content: center;
 }
 .italics{
     font-style: italic;
+}
+#image{
+    /* display: flex;  */
+    /* justify-content: center; */
+    text-align: center;
+}
+
+#container{
+    margin: 30px;
+    /* width: 900px; */
+    background: white ;
+    background-size:cover;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    /* overflow: scroll; */
+}
+
+.c1{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    /* font-weight: bold; */
+    font: 20px bold;
+    margin: 10px;
 }
