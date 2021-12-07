@@ -1,0 +1,66 @@
+/* #services{
+    color: gold;
+}
+h2[class=subtitle]{
+    color: blueviolet;
+}
+h2{
+    color: red;
+}
+
+li:nth-child(2){
+    color: steelblue;
+}
+/* #youtube-link:link{
+    color: blue;
+}
+#youtube-link:visited{
+    color: violet;
+} */
+/* h2 + a{
+    color: tomato;
+}
+textarea~button{
+    color: yellowgreen;
+}
+ul>li{
+    color: brown; */
+/* } */
+
+
+#title{
+    color: rgb(189, 125, 15)
+}
+.subtitle{
+    color: rgb(200, 147, 56)
+}
+body{
+    background:rgb(250, 250, 200);
+    /* text-transform: lowercase; */
+    /* text-align: justify; */
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+#serviceimage{
+    height: 400px;
+    width: 70%;
+    /* background-image: url(https://wallpaperaccess.com/full/5002680.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background: radial-gradient(circle, red, blue, green);
+    border: 10px gold double;
+    padding: 5px;
+}
+
+.para{
+    text-decoration: none;
+}
+#img{
+    height: 500px;
+    width: 40%;
+    border: 2px grey solid;
+    padding: 5px;
+    float: right;
+}
+.italics{
+    font-style: italic;
+}
